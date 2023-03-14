@@ -1,0 +1,225 @@
+body {
+    font-size: 28px;
+    background-color: rgb(32, 32, 32);
+
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: -webkit-sticky; /* Safari */
+    position: absolute;
+    top: 0;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100px;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  #navbar{
+    font-size: 14px;
+  }
+  #title{
+    color: white;
+  }
+  #gif{
+    background-image: url('gifball.gif');
+  }
+  #katror{
+    background-color: black;
+    height: 320px;
+
+  }
+  #katror2{
+    background-image: url("finalgif.gif");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 320px;
+  }
+
+  #footer {
+    
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+  #cal{
+    align-items: center;
+    height: 200px;
+    margin-left: 70px;
+  }
+
+
+
+
+  .container_roles {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image_roles {
+    display: block;
+    align-items: center;
+    width: 50%;
+    margin-left: 85px;
+    height: auto;
+
+  }
+  
+  .overlay_roles {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container_roles:hover .overlay_roles {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text_roles {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  #tekstreg{
+      text-decoration: none;
+      color: green;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(43, 43, 43));
+    color: rgb(99, 99, 99);
+    text-align: center;
+ }
+
+
+
+ .open-button_login {
+    background-color: rgb(5, 158, 252);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  width: 150px;
+    font-size: 15px;
+    margin-left: -75px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup_login {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    color: white;
+
+    z-index: 9;
+    font-size: 15px;
+
+
+  }
+  
+  /* Add styles to the form container */
+  .form-container_login {
+    max-width: 500px;
+    max-height: 100% !important;
+
+    background-color: black;
+  }
+  
+  /* Full-width input fields */
+  .form-container_login input[type=text], .form-container_login input[type=password] {
+    width: 100%;
+    height: 40px;
+
+
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container_login input[type=text]:focus, .form-container_login input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container_login .btn_login {
+    background-color: #04AA6D;
+    color:black;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container_login .cancel_login {
+    background-color: rgb(158, 90, 85);
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container_login .btn_login:hover, .open-button_login:hover {
+    opacity: 1;
+  }
+#roles{
+    
+    height: 300px;
+}
+#thespace{
+    height: 50px;
+}
+#goalgreen{
+    width: 100%;
+
+}
